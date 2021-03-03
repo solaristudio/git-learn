@@ -1,5 +1,5 @@
-const f = x => x
+const identity = x => x
 
 module.exports = {
-	f
+	identity
 }
