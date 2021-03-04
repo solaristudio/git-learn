@@ -1,5 +1,7 @@
-const f = x => x
+const identity = x => x
+const not = x => !x
 
 module.exports = {
-	f
+	identity,
+	not
 }
